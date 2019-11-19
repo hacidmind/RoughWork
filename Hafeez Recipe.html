@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hafeez Recipes</title>
+    <style>
+        body,html {
+            background-color: rgb(233, 236, 17);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin-left: 5%;
+            margin-top: 5%;
+            margin-right: 5%;
+            margin-bottom: 10%; 
+            
+        }        
+        #hafeez_recipe {      
+            text-align: center;
+            margin-top: 10px;
+            background-color: rgba(194, 184, 184, 0.979);
+            font-size: 3em;
+            
+        }
+        .fig {
+            font-size: .8rem;
+        }
+        #buffalo_sausage {
+            text-align: center;
+            background-color: rgba(194, 184, 184, 0.979);
+        }
+        #sausage_bread {
+            text-align: center;
+            background-color: rgba(194, 184, 184, 0.979);
+        }
+        #calzone {
+            text-align: center;
+            background-color: rgba(194, 184, 184, 0.979);
+        }
+        img {
+            border: 10px solid rgb(238, 201, 38);
+            border-radius: 10%;
+            width: 1000;            
+        }
+        .images {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 80%;            
+        }
+        figcaption {
+            text-align: center;
+        }
+        nav {
+            text-align: center;            
+        }
+        nav ul {
+            list-style-type: none;
+        }
+        .one {
+            border: 30px solid beige;
+            border-radius: 10%;
+            margin-bottom: 3%;
+            background-color: beige;
+        }
+        .two {
+            border: 30px solid beige;
+            border-radius: 10%;
+            margin-bottom: 3%;
+            background-color: beige;
+        }
+        .three {
+            border: 30px solid beige;
+            border-radius: 10%;
+            margin-bottom: 3%;
+            background-color: beige;
+        }
+        
+        nav ul li {
+            float: center;
+            background-color: beige;
+            cursor: pointer;                        
+        }
+        .ingredients, .steps {
+            display: flex;
+            flex-direction: column;
+            margin-top: 1.5em;
+            width: 47%;
+        }
+        a:hover {
+            background-color: #e6e6e6;
+        }
+        a:active {
+            background-color: blue;            
+        }
+        a:visited {
+            background-color: red;
+        }
+        #main-nav {           
+            align-content: center; /* justify-content: can also be used */
+            margin-bottom: 20px;
+        }
+        .navLinks {
+            padding-left: 1em;
+            padding-right: 1em;
+            padding-top: .2em;
+            padding-bottom: .4em;            
+            border: .25em solid #35fd35;
+            font-size: .8em;
+            border-radius: 60px;
+            margin-left: 20px;
+        }
+        .A {
+            display: flex;
+        }
+        .main {
+            display: flx; /* dabbling on the use of flexbox in various scenerios */
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="nav">
+        <header>
+            <h1 id="hafeez_recipe">HAFEEZ<sup>©</sup> Recipes</h1>
+            <div id="main-nav">
+            <nav>                
+                <a class="navLinks" href="#buffalo_sausage"> Buffalo Sausage Cheese Dip </a>
+                <a class="navLinks" href="#sausage_bread"> Sausage Bread Bowl</a>
+                <a class="navLinks" href="#calzone"> Sausage and Cheese Calzone</a>
+            </nav>
+            </div>
+        </header>
+    </div>
+    <div>
+        <article class="one">
+                <header>
+                <h2 id="buffalo_sausage">Buffalo Sausage Cheese Dip</h2>
+                <figure class="fig">
+                    <img src="image/buffalo sausage cheese dip.jpg" class="images" alt="buffalo sausage cheese dip" title="buffalo sausage cheese dip">
+                    <figcaption>
+                            Create this delicious Buffalo sausage dip fast with Jimmy Dean<sup>&copy;</sup> 
+                            Turkey Sausage Crumbles, cream cheese and hot sauce. Serve with 
+                            crisp celery sticks for a bit of crunch.
+                    </figcaption>
+                </figure>
+                </header>
+                <div class="A">
+                <section class="ingredients">
+                <main class="main">
+                <h3>List of Ingredients:</h3>
+                <ul>
+                        <li><strong>1</strong> package Turkey Sausage Crumbles</li>
+                        <li><strong>1</strong> package &lpar;8 ounces&rpar; cream cheese, cubed, softened</li>
+                        <li><strong><sup>1</sup>&sol;<sub>2</sub></strong> cup sour cream</li>
+                        <li><strong><sup>1</sup>&sol;<sub>4</sub></strong> cup Louisiana brand hot sauce</li>
+                        <li><strong>2</strong> tablespoons chopped celery</li>
+                        <li><strong><sup>1</sup>&sol;<sub>2</sub></strong> cup &lpar;2 ounces&rpar; blue cheese crumbles</li>
+                        <li>Baked pita chips or celery sticks for dipping</li>
+                </ul>
+                </section>
+
+                <section class="steps">
+                <h3>Steps:</h3>
+                <ol>
+                        <li>
+                                Heat and stir sausage crumbles in a large skillet over medium 
+                                heat for 4-5 minutes or until hot. Add cream cheese, sour cream
+                                and hot sauce.
+                            </li>
+                            <li>
+                                Cook and stir until cream cheese is melted and sauce is smooth.
+                                Stir in blue cheese and celery; heat 2 minutes or until cheese is 
+                                melted. Spoon into serving dish or chafing dish. 
+                            </li>
+                            <li>
+                                Serve with chips and celery sticks.
+                            </li>
+                </ol>
+                </main>
+                </section>
+                </div>                
+                <footer>
+                <nav>
+                    <a href="#hafeez_recipe">Top</a>
+                    <a href="#sausage_bread">Next</a>
+                </nav>
+                </footer>
+            </article>
+            <article class="two">
+                <header>
+                <h2 id="sausage_bread">Sausage Bread Bowl</h2>
+                <figure class="fig">
+                <img src="image/sausage bread bowl.jpg" class="images" alt="sausage bread bowl" title="sausage bread bowl" width="500">
+                <figcaption>
+                        Bake Jimmy Dean<sup>&copy;</sup> Original Sausage Crumbles, green chilies and 
+                        Mexican cheese into a crispy bread bowl for a warm and savory treat 
+                        that is great for any occasion.
+                </figcaption>
+                </figure>
+                </header>
+                <div class="A">
+                <section class="ingredients">
+                <main class="main">
+                <h3>List of Ingredients:</h3>
+                <ul>
+                    <li><strong>1</strong> package Original Sausage Crumbles</li>
+                    <li><strong>2</strong> cups &lpar;8 ounces&rpar; shredded Mexican Cheese Blend</li>
+                    <li><strong><sup>1</sup>&sol;<sub>2</sub></strong> cup mayonnaise</li>
+                    <li><strong><sup>1</sup>&sol;<sub>2</sub></strong> cup sour cream</li>
+                    <li><strong>1</strong> can &lpar;4 ounces&rpar; chopped green chilies, drained</li>
+                    <li><strong>1</strong> lb. round bread loaf</li>
+                </ul>
+                </section>
+                <section class="steps">
+                <h3>Steps:</h3>
+                <ol>
+                        <li>
+                                Preheat oven to 350⁰F.
+                            </li>
+                            <li>
+                                Combine sausage, cheese, mayonnaise, sour cream and green
+                                chilies in a large bowl until well blended.
+                            </li>
+                            <li>
+                                Cut slice from top of bread loaf; remove center, leaving 1-inch-thick
+                                shell. Cut removed bread into bite-sized pieces. Spoon sausage
+                                mixture into bread bowl.
+                            </li>
+                            <li>
+                                Place bread bowl on baking sheet. Bake for 45-50 minutes or until
+                                hot. Serve with bread and crackers, if desired.
+                            </li>
+                </ol>
+                </section>                
+                </main>
+                </div>                
+                <footer>
+                    <nav>
+                        <a href="#hafeez_recipe">Top</a>
+                        <a href="#sausage_bread">Previous</a>
+                        <a href="#calzone">Next</a>
+                    </nav>
+                </footer>
+            </article>
+            <article class="three">
+                <header>
+                    <h2 id="calzone">Sausage and Cheese Calzone</h1>
+                    <figure class="fig">
+                        <img src="image/sausage and cheese calzone.jpg" class="images" alt="sausage and cheese calzone" title="sausage and cheese calzone" width="500">
+                        <figcaption> This sausage and cheese calzone recipe brings Italian delight right to 
+                                your dinner table. With flakey homemade dough, you’ll be craving it 
+                                long after the meal.
+                        </figcaption>
+                    </figure>
+                </header>
+                <div class="A">                
+                <section class="ingredients">
+                <main class="main">
+                    <h3>List of Ingredients:</h3>
+                    <ul>
+                        <li>Dough</li>
+                        <li><strong>1</strong> green bell pepper, seeded and diced</li>
+                        <li><strong>8</strong> ounces mushrooms, sliced</li>
+                        <li><strong>2</strong> cups shredded mozzarella cheese</li>
+                        <li><strong>1</strong> tablespoon instant dry yeast</li>
+                        <li><strong>1</strong> tablespoon brown sugar</li>
+                        <li><strong>1</strong> teaspoon salt</li>
+                        <li><strong>1 <sup>1</sup>&sol;<sub>3</sub></strong> cup warm water &lpar;approx. 105 degrees F&rpar;</li>
+                        <li><strong>2</strong> tablespoons Olive Oil</li>
+                        <li>Filling</li>
+                        <li><strong>1</strong> package Jimmy Dean<sup>&copy;</sup> Premium Pork Sausage</li>
+                        <li><strong>1</strong> red bell pepper, seeded and diced</li>
+                    </ul>
+                    </section>
+                    <section class="steps">
+                    <h3>Steps:</h3>
+                    <ol>
+                            <li>
+                                    In the bowl of a stand mixer, combine yeast, brown sugar, salt,
+                                    water, olive oil, and flour. Knead on low until dough starts to
+                                    come together. Continue kneading until the dough forms a nice,
+                                    soft dough ball and the sides of the bowl are clean.
+                                </li>
+                                <li>
+                                    Let rise in a lightly greased bowl, covered, for 1 hour, until
+                                    doubled in size.
+                                </li>
+                                <li>
+                                    Meanwhile, make the filling. Heat a large heavy skillet over
+                                    medium-high heat. Add in Jimmy Dean Premium Pork Regular Sausage
+                                    and cook 5 minutes. Use a spatula to break up the sausage into 
+                                    crumbles. After 5 minutes, add in the bell peppers and mushrooms.
+                                    Continue to saute until vegetables are tender crisp and sausage
+                                    is cooked through, about 5 minutes.
+                                </li>
+                                <li>
+                                    Divide the dough into 4 equal pieces. Roll into circles with a 
+                                    12-inch diameter. Spoon the sausage mixture onto one half of the
+                                    dough, leaving a 1 inch edge. Top with 1/2 cup cheese per calzone.
+                                    Fold the dough over the filling and seal the edges.
+                                </li>
+                                <li>
+                                    Transfer stuffed calzones to a lightly greased baking sheet. Use a
+                                    sharp knife to make three slits in the top of each calzone to allow
+                                    steam to vent.
+                                </li>
+                                <li>
+                                    Bake in a 400 degree oven for 15 to 20 minutes until bread is golden
+                                    brown. Serve hot.
+                                </li>
+                    </ol>
+                    </section>
+                </main> 
+                </div>     
+                <footer>
+                    <nav>
+                        <a href="#sausage_bread">Prev</a>
+                        <a href="#hafeez_recipe">Top</a>
+                    </nav>
+                </footer>      
+            </article>        
+    </div>
+        
+</body>
+</html>
